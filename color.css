@@ -1,0 +1,149 @@
+html,body{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.pixabay.com/photo/2020/05/11/16/07/asparagus-5158977_960_720.jpg);
+}
+.list{
+    width: 1200px;
+    height: 800px;
+    background-color: rgba(255, 255, 255,0.5);
+    background-size: contain;
+    position: relative ;
+    top: 80px;
+    left: 350px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.ND{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: 0 40px;
+    margin-bottom: 60px;
+    color: white;
+    
+}
+.KM{
+    height: 450px;
+    background-color: rgb(117,143,59);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 30px;
+}
+.TK{
+    background-color: rgb(154,255,133);
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    justify-content: space-around;
+}
+.BL{
+    width: 360px;
+    background-color: rgb(38,155,53);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.LC{
+    height: 150px;
+    background-color: rgb(232,255,182);
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.RD{
+    position: relative;
+    top: 150px;
+    background-color: rgb(53,143,30);
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    justify-content: space-around;
+}
+.E{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(198,255,202);
+    border-radius:10px ;
+    margin: 10px 10px;
+}
+.noidung{
+    font-family: Arial, Helvetica, sans-serif
+}
+.noidung1{
+margin: 0 30px;
+}
+.noidung2{
+margin: 0 30px;
+}
+.noidung3{
+color: black;
+margin: 0 30px;
+}
+.noidung4{
+    height: 50px;
+    margin: 30px 40px;
+    font-size: 36px;
+}
+.noidung5{
+    margin-top: 45px;
+}
+.noidung6{
+    margin: 0 28px;
+    margin-top: 120px;
+}
+.LB{
+text-align: center;
+color: black;
+margin-top: 50px ;
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif
+}
+.icon1{
+    position: relative;
+    font-size: 40px;
+    left: 30px;
+    width: 40px;
+}
+.icon2{
+position: relative;
+top: -20px;
+right: -240px;
+font-size: 40px;
+width: 40px;
+color: black;
+}
+.icon3{
+position: absolute;
+top: 20px;
+right: 20px;
+font-size: 40px;
+}
+i.icon1:hover{
+     color: black;
+}
+i.icon2:hover{
+    color: white;
+}
+i.icon3:hover{
+    color: black;
+}
+.DK{
+    color: rgb(236, 235, 235);
+    position: absolute;
+    bottom: 0;
+    left: 750px;
+}
+.DK:hover{
+    color: lightskyblue;
+}
