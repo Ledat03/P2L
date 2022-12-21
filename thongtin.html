@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="thongtin.css">
+</head>
+<body>
+<form action="https://localhost/test/index.php/main/check_signin" method = "post" enctype="multidata/formdata">
+<div class="father">
+    <div class="container">
+        <div class="ND">
+            <label class="text text1" for="dn">Cập Nhật Thông Tin</label>
+            <input type="hidden" placeholder="Email" name="id">
+            <label for="avatar"></label>
+            <input type="file" placeholder="Thêm avatar" name="avatar"  >
+            <div class="tt tt1">
+            <p>Số Điện Thoại</p>
+            <input  class="box box1" type="text" placeholder="Số Điện Thoại" name="PhoneNumber" required>
+            </div>
+            <div class="tt tt2">
+            <p>Họ và Tên</p>
+            <input class="box box2" type="text" placeholder="Họ và Tên" name="Name" required>
+            </div>
+            <div class="tt tt3">
+            <p>Giới Tính</p>
+            <input class="box box3" type="text" placeholder="Giới Tính" name="Sex" required>
+            </div>
+            <div class="tt tt4">
+            <p>Địa Chỉ</p>
+            <input  class="box box5" type="text" placeholder="Địa Chỉ" name="Address" required>
+            </div>
+            <div class="tt tt5">
+            <p>Ngày Sinh</p>
+            <input  class="box box4" type="date" placeholder="Ngày Sinh" name="Birth" required>
+            </div>
+            <div class="clearfix">
+            <button type="submit" class="box box6">Cập Nhật</button>
+            </div>
+        </div>
+    </div>
+    <div class="img">
+    </div>
+</div>    
+</div>  
+</body>
+</html>
